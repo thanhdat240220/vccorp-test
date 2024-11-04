@@ -1,0 +1,25 @@
+
+.hexagon {
+    width: 300px; /* Width of the hexagon */
+    height: 173px; /* Height of the hexagon */
+    background-color: #64C7CC; /* Fallback color */
+    position: relative;
+    clip-path: polygon(
+        50% 0%, 
+        100% 25%, 
+        100% 75%, 
+        50% 100%, 
+        0% 75%, 
+        0% 25%
+    );
+    overflow: hidden; /* Hide overflow */
+}
+
+.hexagon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    transform: translate(-50%, -50%); /* Center the image */
+}
