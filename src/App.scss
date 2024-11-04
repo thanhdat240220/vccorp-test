@@ -1,25 +1,21 @@
+.hex-alt {
+    height: 546px;
+    width: 481px;
+    max-width: unset;
 
-.hexagon {
-    width: 300px; /* Width of the hexagon */
-    height: 173px; /* Height of the hexagon */
-    background-color: #64C7CC; /* Fallback color */
-    position: relative;
-    clip-path: polygon(
-        50% 0%, 
-        100% 25%, 
-        100% 75%, 
-        50% 100%, 
-        0% 75%, 
-        0% 25%
-    );
-    overflow: hidden; /* Hide overflow */
+    aspect-ratio: cos(30deg);
+    /* notice how I simply switched the x/y from the previous polygon, easy! */
+    clip-path: polygon(-50% 50%, 50% 100%, 150% 50%, 50% 0);
+    background: linear-gradient(45deg, #A7DBD8, #C7F464);
 }
 
-.hexagon img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    height: auto;
-    transform: translate(-50%, -50%); /* Center the image */
+.hex-alt-2 {
+    height: 414px;
+    width: 365px;
+    max-width: unset;
+
+    aspect-ratio: cos(30deg);
+    /* notice how I simply switched the x/y from the previous polygon, easy! */
+    clip-path: polygon(-50% 50%, 50% 100%, 150% 50%, 50% 0);
+    background: linear-gradient(45deg, #A7DBD8, #C7F464);
 }
