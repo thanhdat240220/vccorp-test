@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import Hexagon from "../shapes/Hexagon";
 import HexagonImageType1 from "./hexagon-image/HexagonImageType1";
 import HexagonImageType2 from "./hexagon-image/HexagonImageType2";
+import Hexagon from "../shapes/hexagon/Hexagon";
 
 const LeftSide = ({
   imagesConfig

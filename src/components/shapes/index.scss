@@ -1,0 +1,10 @@
+
+.bottom-hexagon-svg {
+    top: 56%; 
+    left: 50%; 
+    transform: translate(-50%, 0%);
+
+	@media screen and (max-width: 640px) {
+		top: 47%; 
+	}
+}

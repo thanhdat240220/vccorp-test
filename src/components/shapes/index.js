@@ -1,6 +1,7 @@
-import Hexagon from "./Hexagon";
-import PlusIcon from "./Plus";
-import Square from "./Square";
+import Hexagon from "./hexagon/Hexagon";
+import HexagonBottom from "./bottom-hexagon-svg/BottomHexagonSvg";
+import PlusIcon from "./plus/Plus";
+import Square from "./square/Square";
 
 const Shapes = () => {
     return (
@@ -35,10 +36,8 @@ const Shapes = () => {
                 <Square color="bg-white" size="w-6 h-6 sm:w-[1.625rem] sm:h-[1.625rem]" opacity="opacity-10 sm:opacity-20" radius="rounded-md" />
             </div>
 
-            <div className="absolute center opacity-30">
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1090" height="1258" viewBox="0 0 1089.4599579608237 1258" >
-                    <path fill="#032184" d="M492.7684547533455 29.999999999999996Q544.7299789804118 0 596.6915032074781 30L1037.4984337337573 284.5Q1089.4599579608237 314.5 1089.4599579608237 374.5L1089.4599579608237 883.5Q1089.4599579608237 943.5 1037.4984337337573 973.5L596.6915032074781 1228Q544.7299789804118 1258 492.7684547533455 1228L51.96152422706631 973.5Q0 943.5 0 883.5L0 374.5Q0 314.5 51.96152422706632 284.5Z"></path>
-                </svg>
+            <div className="absolute bottom-hexagon-svg opacity-30">
+                <HexagonBottom />
             </div>
         </div>
     );

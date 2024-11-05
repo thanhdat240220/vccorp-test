@@ -2,6 +2,8 @@ import './App.scss';
 import RightSide from './components/right-side';
 import LeftSide from './components/left-side';
 import Shapes from './components/shapes';
+import Image1 from './assets/image-1.jpg';
+import Image2 from './assets/image-2.jpg';
 
 const configs = {
   content: {
@@ -10,8 +12,10 @@ const configs = {
     role: "Bác sĩ"
   },
   image: {
-    hexagonType1Url: '',
-    hexagonType2Url: ''
+    hexagonType1Url: Image1,
+    hexagonType2Url: Image2,
+    // hexagonType1Url: "https://static.vecteezy.com/system/resources/thumbnails/026/375/249/small_2x/ai-generative-portrait-of-confident-male-doctor-in-white-coat-and-stethoscope-standing-with-arms-crossed-and-looking-at-camera-photo.jpg",
+    // hexagonType2Url: "https://images.unsplash.com/photo-1638202993928-7267aad84c31?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhlYWx0aCUyMGNhcmV8ZW58MHx8MHx8fDA%3D"
   }
 };
 
