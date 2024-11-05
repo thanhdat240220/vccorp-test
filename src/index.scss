@@ -49,3 +49,14 @@ table {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.center {
+    top: 56%; 
+    left: 50%; 
+    transform: translate(-50%, 0%);
+
+	@media screen and (max-width: 640px) {
+		top: 47%; 
+	}
+}

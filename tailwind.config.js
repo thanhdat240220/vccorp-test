@@ -16,8 +16,16 @@ module.exports = {
           dark: '#1f54b6',     // dark blue
           accent: '#41bafc',   // accent blue
         },
+        shapeColors: {
+          DEFAULT: '#35b0f8',
+          dark: '#032184',
+          light: '#07F9FE',
+        },
+        bottomShape: {
+          DEFAULT: '#0278d5'
+        },
         textCustom: {
-          DEFAULT: '#FFDE05'
+          DEFAULT: '#FFDE05' // yellow
         }
       },
     },

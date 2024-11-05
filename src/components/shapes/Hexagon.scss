@@ -1,0 +1,24 @@
+.hexagon {
+    position: relative;
+    transition: opacity .5s;
+
+    &::before,
+    &::after {
+        content: '';
+        position: absolute;
+        width: inherit;
+        height: inherit;
+        border-radius: inherit;
+        background: inherit;
+    }
+
+    &::before {
+        -webkit-transform: rotate(60deg);
+        transform: rotate(60deg);
+    }
+
+    &::after {
+        -webkit-transform: rotate(-60deg);
+        transform: rotate(-60deg);
+    }
+}
